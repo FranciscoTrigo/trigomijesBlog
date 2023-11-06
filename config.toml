@@ -1,4 +1,4 @@
-baseURL = 'https://trigomijes.com/'
+baseURL = 'http://trigomijes.com/'
 languageCode = 'en-us'
 title = 'hobby blog'
 theme = 'poison'
