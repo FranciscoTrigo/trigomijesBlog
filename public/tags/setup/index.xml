@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>setup on hobby blog</title>
+    <link>https://trigomijes.com/tags/setup/</link>
+    <description>Recent content in setup on hobby blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Nov 2023 01:41:14 -0600</lastBuildDate><atom:link href="https://trigomijes.com/tags/setup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keyboards</title>
+      <link>https://trigomijes.com/posts/keyboards/</link>
+      <pubDate>Mon, 06 Nov 2023 01:41:14 -0600</pubDate>
+      
+      <guid>https://trigomijes.com/posts/keyboards/</guid>
+      <description>I like keyboards And i like them very much
+BUt what is a keyboard if not a keyboard
+I dont know Hello
+But someday I will</description>
+    </item>
+    
+  </channel>
+</rss>
