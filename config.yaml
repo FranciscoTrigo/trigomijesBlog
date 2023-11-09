@@ -2,7 +2,14 @@
 baseURL: https://trigomijes.com/ # Replace with your domain
 languageCode: en-us
 theme: smigle
-title: Frank
+title: Francisco TrigoMijes
+taxonomies:
+  tag: tags
+  category: categories
+outputs:
+  home:
+    - HTML
+    - RSS
 menu:
   main:
     - identifier: home
