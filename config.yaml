@@ -1,4 +1,3 @@
-# exampleSite/config.yaml
 baseURL: https://trigomijes.com/ # Replace with your domain
 languageCode: en-us
 theme: smigle
@@ -35,7 +34,7 @@ menu:
 params:
   abbrDateFmt: "Jan 2"
   author: "Francisco TrigoMijes"
-  brandIconFile: "favicon.png"
+  brandIconFile: "favicon.ico"
   dateFmt: "2006-01-02"
   ##
   ## Options for overriding theme or page defaults
