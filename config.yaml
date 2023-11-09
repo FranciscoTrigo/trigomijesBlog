@@ -52,5 +52,7 @@ params:
       url: https://linkedin.com/in/francisco-trigo-mijes
     - name: Email
       url: mailto://blog@trigomijes.com
+    - name: RSS
+      url: https://trigomijes.com/posts/index.xml
 
   subtitle: "It Professional"
