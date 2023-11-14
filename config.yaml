@@ -9,6 +9,12 @@ outputs:
   home:
     - HTML
     - RSS
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: assets
+      target: assets/images
 menu:
   main:
     - identifier: home

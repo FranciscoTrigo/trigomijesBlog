@@ -8,6 +8,7 @@ description: >-
 tags:
   - keyboard
   - enemy
+  - ergonomics
 categories:
   - hardware
 series:
