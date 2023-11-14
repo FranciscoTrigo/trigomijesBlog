@@ -7,26 +7,11 @@ tags:
   - keyboard
 ---
 
-<style type="text/css">
-    .image-wrapper {
-    text-align: center;
-    /* background-color: brown; */
-    color: gray;
-
-    .image-caption {
-        margin-top: $spacing-unit / 3;
-    }
-}
-</style>
-
-
 # My Ergodox
 
 For a number of years now (I started maybe in 2017) I have been using an ergonomic split keyboard of open source design, the [Ergodox](https://www.ergodox.io/). You can either build it yourself from scratch, build it from parts or buy a completed working keyboard from a company or an independent builder. I have two, an [Infinity](https://drop.com/buy/infinity-ergodox) and an [Ergodox-EZ](https://ergodox-ez.com/).
 
 ![ATEST](/images/ergodox/ergodox-full.jpg)
-![Waka](/assets/images/ergodox/ergodox-layer1.png)
-![Wako](/images/ergodox/ergodox-full.jpg)
 
 {% include image.html
     img="assets/ergodox/ergodox-full.jpg"

@@ -11,10 +11,10 @@ outputs:
     - RSS
 module:
   mounts:
-    - source: assets
-      target: assets
-    - source: assets
-      target: assets/images
+    - source: static
+      target: static
+    - source: static
+      target: static/images
 menu:
   main:
     - identifier: home
