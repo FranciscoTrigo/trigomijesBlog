@@ -1,6 +1,6 @@
 ---
 draft: false
-title: My Ergodox and its layout
+title: My Ergodox and its layout are here
 date: 2022-09-02
 tags:
   - ergonomics
@@ -9,9 +9,16 @@ tags:
 
 # My Ergodox
 
+> 🛈 Information
+> 
+> This is an old post that I wrote for a previous blog.
+> It's here mainly just so I could test Hugo stuff.
+> I do not use this as my main keyboard anymore, a blog post about my new keyboard is on the works.
+
 For a number of years now (I started maybe in 2017) I have been using an ergonomic split keyboard of open source design, the [Ergodox](https://www.ergodox.io/). You can either build it yourself from scratch, build it from parts or buy a completed working keyboard from a company or an independent builder. I have two, an [Infinity](https://drop.com/buy/infinity-ergodox) and an [Ergodox-EZ](https://ergodox-ez.com/).
 
-![ATEST](/images/ergodox/ergodox-full.jpg)
+![ATEST](ergodox-full.jpg "I have keycaps with Japanese legedns because I'm a weeb. Also notice the Gamers Nexus mousepad.")
+
 
 {% include image.html
     img="assets/ergodox/ergodox-full.jpg"
@@ -32,19 +39,14 @@ Its still a work in progress, buts lets take as quick look:
 
 ### Layer 0
 
-{% include image.html
-    img="assets/ergodox/ergodox-layer1.png"
-    title="My Ergodox"
-    caption="This is my main writting layer" %}  
+{{< figure src="ergodox-layer1.png" alt="This is my main writing layer." caption="This is my main writing layer." >}}
+
 
 Not much to see here. Just a basic QWERTY layout. I have buttons to change layers momentarily in the right thumb cluster. I also have two spaces, one on each side. I am still playing with this layout so many of the keys are close to the default and they don't actually get used by me yet.
 
 ### Layer 1
 
-{% include image.html
-    img="assets/ergodox/ergodox-layer2.png"
-    title="My Ergodox"
-    caption="You could call this my functional layer" %}
+{{< figure src="ergodox-layer2.png" alt="You could call this my functional layer." caption="This could be called my functional layer.." >}}
 
 This is mainly a layer for some functions. Do not pay attention to the symbols on the left side, I do not use them and they are there as leftovers from the default layout.  
 I decided to take the keys that are normally WASD and make them the arrow keys, this makes for a easy seamless navigation (specially for games). The macros are just shortcuts to copy and paste (they are located where the C and V keys normally are), as well as easy access to Ctrl+Alt+Del (located on the bigger key at the rightmost corner), and also a shortcut to bring up Ditto (my clipboard manager in Windows). Pretty handy.  
@@ -52,10 +54,9 @@ On the right half there is a numpad, but I rarely use it. In fact I forgot it wa
 
 ### Layer 2
 
-{% include image.html
-    img="assets/ergodox/ergodox-layer3.png"
-    title="My Ergodox"
-    caption="The mouse layer." %}
+
+{{< figure src="ergodox-layer3.png" alt="The mouse layer." caption="The mouse layer." >}}
+
 
 Pretty simple too. I replace WASD with keys to move my mouse pointer around; and the Q and E keys become left and right click respectively. I also set up some keys here to control the volume and media that is playing. Everything else is still the default for now.
 

@@ -9,12 +9,18 @@ outputs:
   home:
     - HTML
     - RSS
+markup:
+  goldmark:
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+      attribute:
+        block: true
 module:
   mounts:
-    - source: static
-      target: static
-    - source: static
-      target: static/images
+    - source: assets
+      target: assets
+    - source: assets
+      target: assets/images
 menu:
   main:
     - identifier: home
