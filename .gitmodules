@@ -31,3 +31,12 @@
 [submodule "themes/smigle"]
 	path = themes/smigle
 	url = https://gitlab.com/ian-s-mcb/smigle-hugo-theme.git
+[submodule "themes/hugo-texify3"]
+	path = themes/hugo-texify3
+	url = https://github.com/michaelneuper/hugo-texify3.git
+[submodule "themes/binario"]
+	path = themes/binario
+	url = https://github.com/vimux/binario
+[submodule "themes/tophat"]
+	path = themes/tophat
+	url = https://github.com/sergiobarriel/tophat-theme.git
