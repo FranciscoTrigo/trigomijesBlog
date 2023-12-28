@@ -16,8 +16,6 @@ Most of these games are not actually recent, but I enjoyed playing them.
 Elden Ring has been a fantastic experience, I have over 150 hours of playtime and around 90% of them were spent playing on my SteamDeck.  
 At first I was a little hesitant about playing this game, I hadnt played any Souls-like game before, but I knew that they are very hard and challenging. I don't particularly like games that are very hard for the sake of being hard. But I read so many good things about this game that I decided to try it, and I don't regret it.  
 
-[photo?]  
-
 Elden Ring is hard. I spent many, many hours in the starting area being killed by all enemies. But for the most part it does not feel unfair, and it actually feels very rewarding when you get to defeat enemies.  
 My favorite part of the game is how free you actually are. You can start the game and right away run pretty much anywhere on the map, go explore the vast and beautiful environments, fight (and defeat, if you are good enough) pretty much anyone; and then come back and explore more. The game is full of secrets and little details that will keep you entertained for a long, long time.
 
@@ -25,19 +23,25 @@ As mentioned before, I played this game almost exclusively on my SteamDeck. The 
 
 I still don't finish this game, and haven't played in a while. But I'm excited for when I come back to explore the Lands Between once again.
 
-
 ## Mario Kart 8 Deluxe
 
+I did not play this game until this year. I'm a fan of the series (Mario Kart DS is my favorite), but my sister left the state for school and I no longer have friends to play this game with, so I was stuck playing single player on with randoms online. For me, the most fun you can have with Mario Kart is when you play with someone you can communicate with. Because of that, I didn't really have many reasons to play it.  
+Enter my girlfriend and her family. I bought her and myself a copy of this came so that we can play together online (we are in a long-distance relationship), and since then we have spent countless hours playing and having fun. Her siblings and cousins also get to play with us, so it gets pretty chaotic very fast.
 
 ## Stardew Valley
 
-I've eyeing this game since it came out years ago. But I always refrained of playing because it felt like the kind of game that demands long, frequent sessions of playtime. It would have been perfect when I was younger (I used to play Animal Crossing 8 hours a day, everyday on the GCN)
-
-This is the kind of game that I feel you need to spend a lof of time on it (and its easy to loose track of time when you play it), just like Animal Crossing. 
+I've eyeing this game since it came out years ago. But I always refrained of playing because it felt like the kind of game that demands long, frequent sessions of playtime. It would have been perfect when I was younger (I used to play Animal Crossing 8 hours a day, everyday on the GCN).
 It wasn't until I started a co-op farm with my girlfriend and her brother that I finally gave it a chance.
+I grew a farm and animals, went mining and to a deserted island. I also did a bunch of chores for my girlfriend. We are starting the third year in-game, and we still have a lot of things to do and to discover!
+
+Pretty chill and fun game, I really like the game mechanic where certain things only happen at certain times, so you have to actually manage and plan how you use your time.
+It has a pretty nice set of characters and lots of secrets to keep you engaged for a long, long time.
+
+I don't know if I would have played it this much if I was by myself, but I certainly don't regret the time I've spent playing it.
 
 ## Honorable mentions
 
 Some other cool games that I played this year:
 
 - Vampire Survivors
+- Phoenix Wright: Ace Attorney Trilogy
