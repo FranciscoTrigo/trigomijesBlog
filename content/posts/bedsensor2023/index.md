@@ -1,10 +1,10 @@
----
-draft: false
-title: Hacking together a Zigbee bed sensor with no soldering
+--
+draft: true
+title: Hacking together a Zigbee bed (or chair) sensor with no soldering
 subtitle: A quick and easy way of creating a new sensor # Optional
 date: 2024-02-01
 description: >-
-  A small list of my favorite games that I played this year, but not necessarily new games.
+    Small tutorial on how to make a sensor to know if you are on your bed or chair.
 tags:
   - home assistant
   - home automation
@@ -68,3 +68,33 @@ You need the pair of bare wires that are comming out of your pressure mat. Its p
 [photos]  
 
 ### Connect the stuff
+
+Now its time to connect your components. If you are using the Aqara or a similar one with the reed switch exposed, you will be able to just wrap the bare lead from the presusre mat into either and of the switch (see pictures). This is what I did, and then I wrapped the sensor with electrical tape.  
+
+[photos]  
+
+Of course, if you want you can also solder if you want. Bear in mind that if your sensor looks more like the Tuya, you will have to solder the leads into the corrects pads to make it work!
+I decided to leave the original sensor casing out of the finished product because it will be placed out of sight, but you might want to keep it. If you do, you will have to drill a hole on the casing to let the wires go thru it.  
+Your sensor is ready to be used!
+
+### Considerations for placement and usage  
+
+#### Bed
+
+You will have to find the best way to place the sensor for your situation. In my case, I have a twin sized bed, and while one pressure mat would be enough, I found out that sometimes it doesn't detect me laying on it, so I decided to add a second one. If you decide to add more than one "sensing point", all you need to do is to connect each one to either side of the reed switch. It will work with no problems since all they do is close and open the circuit.  
+
+[photos]  
+
+This is how I placed the pads under my mattress. This covers up most places where I would lay on and works much better than only one pad. Notice that I also added some cardboard to have a greater surface area for the pads to be pushed againts (since the slats are quite far from each other). Your situation might be different depending on the size of your bed and your bed frame, but this example should be a good starting point.  
+
+[photos]  
+
+#### Chair
+
+Like I said before, this method can also be used for a chair sensor! For this use case I would recommend sticking to the [car seat](link) sensor instead, since its very thin and easier to place. Since I routinely change between my Herman Miller and my Capisco chair, I opted for putting my sensor inside a gel cushion like [this one](link). Now I can transfer the sensor to anywhere i want.  
+
+[photos]  
+
+But If you don't plan on chaning chairs you can just stick in on top of the seat, or under the cover if it allows for it.  
+
+## Integrating to Home Assistant
