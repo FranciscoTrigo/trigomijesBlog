@@ -1,4 +1,4 @@
---
+---
 draft: true
 title: Hacking together a Zigbee bed (or chair) sensor with no soldering
 subtitle: A quick and easy way of creating a new sensor # Optional
@@ -91,10 +91,47 @@ This is how I placed the pads under my mattress. This covers up most places wher
 
 #### Chair
 
-Like I said before, this method can also be used for a chair sensor! For this use case I would recommend sticking to the [car seat](link) sensor instead, since its very thin and easier to place. Since I routinely change between my Herman Miller and my Capisco chair, I opted for putting my sensor inside a gel cushion like [this one](link). Now I can transfer the sensor to anywhere i want.  
+Like I said before, this method can also be used for a chair sensor! For this use case I would recommend sticking to the [car seat](link) sensor instead, since its very thin and easier to place. Since I routinely change between my Herman Miller and my Capisco chair, I opted for putting my sensor inside a gel cushion like [this one](link). It slides quite a bit, so I secured it with tape. Now I can transfer the sensor to anywhere i want.  
 
 [photos]  
 
-But If you don't plan on chaning chairs you can just stick in on top of the seat, or under the cover if it allows for it.  
+But If you don't plan on changing chairs you can just stick in on top of the seat, or under the cover if it allows for it.  
 
 ## Integrating to Home Assistant
+
+Once your sensor is fabricated, you have to add it to your Home Assistant environment. How to do this will change depending on your exact integrations and settings, in my case, I am using Zigbee2MQTT  
+The important part is here is to make sure that it works as intended for your automations. The normal behavior of the sensor would make it so that it is OFF when you are laying on it, and ON when you are not (this happens becaue the pad sensor would close the circuit just as the magnet on a door's frame would close the reed's switch). This can be semantically confusing, so we are going to create a custom template sensor to fix this issue.  
+
+We are going to modify the `config.yaml` and add this code to it:
+```yaml
+template:
+    - binary_sensor:
+      - name: "Bed occupancy"
+        state: "{{ is_state('binary_sensor.bed_contact', 'off') }}"
+        delay_off:
+          minutes: 5
+        icon: >
+          {% if is_state("binary_sensor.bed_occupancy", "on") %}
+            mdi:bed
+          {% else %}
+            mdi:bed-empty
+          {% endif %}
+```
+You will need to change `binary_sensor.bed_contact'` with the actual name that your sensor has in your HA.  
+ 
+We are basically creating a binary sensor that will be ON when the original sensor is OFF, and that will turn OFF when the sensor has been ON for 5 minutes. I added this delay to avoid quick repeated state changes when moving around in the bed or stading up to do something fast. You can play around with it or remote altogether if you don't need it.  
+
+Lastly, the last part will change the icon depending on the current state of the bed sensor.  
+
+For a chair the code is practically the same:  
+```yaml
+template:
+    - binary_sensor:
+      - name: "Capisco Chair occupancy"
+        state: "{{ is_state('binary_sensor.capiscochair_contact', 'off') }}"
+        delay_off:
+          minutes: 3
+        icon: mdi:chair-rolling
+```
+
+

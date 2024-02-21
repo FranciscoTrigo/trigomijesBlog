@@ -43,6 +43,10 @@ menu:
       name: Tags
       url: /tags/
       weight: 5
+    - identifier: links
+      name: Links
+      url: /links/
+      weight: 6
 params:
   abbrDateFmt: "Jan 2"
   author: "Francisco TrigoMijes"
