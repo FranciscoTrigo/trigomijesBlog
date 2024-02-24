@@ -3,6 +3,7 @@ title: Links
 layout: default
 ---
 
-Here are some stuff i enjoy from around the web:
+Here is some stuff I enjoy from around the web:
 
-- Linus tech tips
+- [@Isopodito](https://www.instagram.com/isopodito_?igsh=MXJmem54bnh1bG1qNA==) - My girlfriend's art account on Instagram
+
