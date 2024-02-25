@@ -1,7 +1,7 @@
 ---
 draft: false
 title: How to generate and add SSH keys to GitHub
-subtitle: Hello world
+subtitle: Quick and easy tutorial
 date: 2024-02-24
 description: >-
     Simple tutorial for SSH keys.
