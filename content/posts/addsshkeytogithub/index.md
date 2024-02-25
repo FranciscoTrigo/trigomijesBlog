@@ -1,7 +1,7 @@
 ---
-draft: true
-title: How to generate and add SSH keys for GitHub
-subtitle: # Optional
+draft: false
+title: How to generate and add SSH keys to GitHub
+subtitle: Hello world
 date: 2024-02-24
 description: >-
     Simple tutorial for SSH keys.
@@ -33,7 +33,6 @@ Once you have that, you need to verify that you don't already have existing SSH 
 yamif@Venusaur-Win MINGW64 ~
 $ ls -al ~/.ssh | grep pub
 -rw-r--r-- 1 yamif 197609  574 Feb 24 16:09 id_rsa.pub
-
 ```
 
 If your output looks something like that, and you already have a .pub file, you already have some keys, and most likely you will be able to use them with GitHub. Compatible filenames would be something like `id_rsa.pub`, `id_ecdsa.pub`, or `id_ed25519.pub`. Bear in mind that these are default file names and yours might actually be different.
@@ -85,7 +84,7 @@ Only ever share and use your public key for anything that might need it.
 
 Now you can go to your GitHub [settings page](https://github.com/settings/keys) and click the button that says "New SSH Key" 
 
-{{< figure src="button1.png"" alt="Informative" caption="Click this" >}}
+{{< figure src="button1.png" alt="Informative" caption="Click this" >}}
 
 Now you will be given two prompts. Give a descriptive title to this key, for example "Manjaro desktop". And in the next field, you need to paste the entire content of your `.pub` file (All of it).
 
@@ -99,6 +98,6 @@ Now, to test if your keys are working, do the following command: `ssh -T git@git
 ```bash
 yamif@Venusaur-Win MINGW64 ~
 $ ssh -T git@github.com
-Hi USERNAME! You've successfully authenticated, but GitHub does not provide shell access.
+Hi USERNAME! Youve successfully authenticated, but GitHub does not provide shell access.
 ```
 If so, congratulations! Your SSH keys are added and you can start using them with GitHub.
