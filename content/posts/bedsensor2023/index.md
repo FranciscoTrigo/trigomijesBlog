@@ -19,10 +19,10 @@ This article contains links to products on Amazon and other sites, but none of t
 {{</admonition>}}
 
 ## The What
-I wanted to sense whether or not I was lying on my bed for some automation ideas that I had on mind, but my search for ready to go solutions turned out futile (except for [super expensive devices](https://www.sleepnumber.com/)). But in my quest for the right device I found out about other people making their own bed sensor out of parts! Here are the videos that inspired me: [link1](link) and [link2](link2).  
+I wanted to sense whether or not I was lying on my bed for some automation ideas that I had on mind, but my search for ready to go solutions turned out futile (except for [super expensive devices](https://www.sleepnumber.com/)). But in my quest for the right device I found out about other people making their own bed sensor out of parts! Here are the videos that inspired me: [link1](https://www.youtube.com/watch?v=gZ1tmHesJXA) and [link2](https://www.youtube.com/watch?v=2tL7n8RRLBc).  
  
 Basically, all you need to do is to get a sensor that can feel when something is pushing on it and outputs a true or false signal, and something to connect it to your home automation system.  
-This could be done in one of many ways, for the sensor you can get something like this [car seat sensor](link), or this [mat sensor](link). And as for the device, you can use something like.  
+This could be done in one of many ways, for the sensor you can get something like this [car seat sensor](https://www.amazon.com/BuyWeek-Safety-Pressure-Universal-Warning/dp/B09WDCWX8K/ref=sr_1_3_pp?crid=1WURP3AXAI20G&dib=eyJ2IjoiMSJ9.KnLtG2aTAiU8VEmVbJ-cNBPsvNdWbakoIafK4lXi0SOzvL7c8r9ZEz0mNPczPAwreZ9LkI4s2CbUFrAXLMXQuqCT5J4P7HsplUkU0RDkYN7zqKXCH2X5-bIicyEp6Zyb-29lUZ36fvtzRbiYwmIwME12fRhFgfozqE9t9X887S5tGPjIzcOL_W16tlBEzqEvt8JY3Ngogna6mgHTcQdDhM6Z9T1JxOiiZvnhUVtJMLX1_Nqo_uU8f2cFUXWMPDlUqFgkMe9BeKQXUr_5xMT6wFcUQvlxrvfZQqhrsG_EgNQ.6VFle_cPYwSPYWzFswvMEu7D4WtIoZRt5AInzl7metc&dib_tag=se&qid=1708896501&sprefix=car%20seat%20senso,aps,190), or this [mat sensor](https://www.amazon.com/BuyWeek-Safety-Pressure-Universal-Warning/dp/B09WDCWX8K/ref=sr_1_3_pp?crid=1WURP3AXAI20G&dib=eyJ2IjoiMSJ9.KnLtG2aTAiU8VEmVbJ-cNBPsvNdWbakoIafK4lXi0SOzvL7c8r9ZEz0mNPczPAwreZ9LkI4s2CbUFrAXLMXQuqCT5J4P7HsplUkU0RDkYN7zqKXCH2X5-bIicyEp6Zyb-29lUZ36fvtzRbiYwmIwME12fRhFgfozqE9t9X887S5tGPjIzcOL_W16tlBEzqEvt8JY3Ngogna6mgHTcQdDhM6Z9T1JxOiiZvnhUVtJMLX1_Nqo_uU8f2cFUXWMPDlUqFgkMe9BeKQXUr_5xMT6wFcUQvlxrvfZQqhrsG_EgNQ.6VFle_cPYwSPYWzFswvMEu7D4WtIoZRt5AInzl7metc&dib_tag=se&qid=1708896501&sprefix=car%20seat%20senso,aps,190). And as for the device, you can use something like.  
  
 I will show you how how I made mine and a few alternatives that you can try, and I will also show you how to integrate with with you existing Home Assistant.  
 
@@ -53,7 +53,7 @@ You will be able to open most sensors just by prying with a thin tool like a gui
 Some of them might have screws, but these are more rare.  
 Be sure to open only the part that is bigger (it probably has a small light and button too), the small part is just a magnet.  
 
-[photos]  
+{{< figure src="firstLab.jpg" alt="Caca" caption="My first complete setup in its natural dusty environment." >}}
 
 Once it is open you need to identify the reed switch and its two sides. If you are using the Aqara this is very wasy to do, the switch is big and its poles (or sides) are easily accesible.  
 
@@ -91,7 +91,7 @@ This is how I placed the pads under my mattress. This covers up most places wher
 
 #### Chair
 
-Like I said before, this method can also be used for a chair sensor! For this use case I would recommend sticking to the [car seat](link) sensor instead, since its very thin and easier to place. Since I routinely change between my Herman Miller and my Capisco chair, I opted for putting my sensor inside a gel cushion like [this one](link). It slides quite a bit, so I secured it with tape. Now I can transfer the sensor to anywhere i want.  
+Like I said before, this method can also be used for a chair sensor! For this use case I would recommend sticking to the [car seat sensor](https://www.amazon.com/gp/product/B09WDCWX8K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) sensor instead, since its very thin and easier to place. Since I routinely change between my Herman Miller and my Capisco chair, I opted for putting my sensor inside a gel cushion like [this one](https://www.amazon.com/Gel-Seat-Cushion-Enhanced-Non-Slip/dp/B08C7HPTW5/ref=sr_1_5_pp?crid=2F28JX2FN7WL3&dib=eyJ2IjoiMSJ9.ByDAg8c7I8Tod4cWlY6KeEsCJoKvdJXZj8ztXTKeRFiWq5x9dyKlLS8FzdNkgnvNmah4B42QX0HeTgeN08qjXX6eSj-x3n2XZ3BgeDGg-aGiA4tvEGmiqaf7em1nOKpewY0aqD218HZ3IhWV1yBgt_AjPQdsPGzPNn8NfHzXen4RddkKoEDPP64dgLEsLJ67vrpWv_zLWth1Rv4zWCkQRPrWG0FHUYf9r77Z75VQMkg2451XCs0Zi-mIwYbr96y-axgVoiMXUyywT1B-VHJMOyQgj3siEKM8xXntrjVD09M.JFarn4__Z5560HvuV1mpYX2pGhUrlm7Ree--6ciGSMg&dib_tag=se&qid=1708896631&sprefix=gel+cushio,aps,178&th=1). It slides quite a bit, so I secured it with tape. Now I can transfer the sensor to anywhere i want.  
 
 [photos]  
 
@@ -133,5 +133,3 @@ template:
           minutes: 3
         icon: mdi:chair-rolling
 ```
-
-
