@@ -15,7 +15,7 @@ sensor for cheap with easy to get parts and no soldering.
 <!--more-->
 
 {{<admonition title="Information" bg-color="#00ee88">}}
-This article contains links to produtcs on Amazon and other sites, but none of them are part of an affiliate or similar and I do not get any money if you choose to purchase any of the products. 
+This article contains links to products on Amazon and other sites, but none of them are part of an affiliate or similar and I do not get any money if you choose to purchase any of the products. 
 {{</admonition>}}
 
 ## The What
