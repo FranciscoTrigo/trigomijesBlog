@@ -7,7 +7,7 @@ description: >-
     Simple tutorial for SSH keys.
 tags:
   - git
-  - developing
+  - programming
 ---
 
 With this tutorial you will quickly learn how to generate and add your SSH keys to your GitHub account. 
