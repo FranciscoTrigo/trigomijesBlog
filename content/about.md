@@ -15,5 +15,4 @@ The purpose of this blog is mostly to just write about things that I like, thing
 
 The blog is built with Hugo and deployed with Netlify out of [this](https://github.com/FranciscoTrigo/trigomijesBlog) GitHub repo.
 
-
 If you want to contact me you can reach me at [blog at trigomijes.com](mailto://blog@trigomijes.com). 
