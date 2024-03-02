@@ -53,11 +53,9 @@ You will be able to open most sensors just by prying with a thin tool like a gui
 Some of them might have screws, but these are more rare.  
 Be sure to open only the part that is bigger (it probably has a small light and button too), the small part is just a magnet.  
 
-{{< figure src="firstLab.jpg" alt="Caca" caption="My first complete setup in its natural dusty environment." >}}
+{{< figure src="opentoclose.png" alt="Image showing the open sensor" caption="The closed sensor on the left, and open on the right. Marked are the ends of the reed switch." >}}
 
 Once it is open you need to identify the reed switch and its two sides. If you are using the Aqara this is very wasy to do, the switch is big and its poles (or sides) are easily accesible.  
-
-[photos]  
 
 Other sensors are different and harder to work with. I've tried with [this](https://www.amazon.com/gp/product/B09W8F3ZV1/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) Tuya sensor, and it uses a different style of reed switch which is smaller and much harder to work with. Unfortunately I don't have a picture of it.
 
@@ -65,13 +63,13 @@ Other sensors are different and harder to work with. I've tried with [this](http
 
 You need the pair of bare wires that are comming out of your pressure mat. Its possible that they already come like that, but they usually come with a plug already on them. You simply need to cut that off and strip off about 2cm of the insulation.  
 
-[photos]  
+{{< figure src="cableexample.png" alt="Image showing the cables" caption="Before and after of the cable." >}}
 
 ### Connect the stuff
 
-Now its time to connect your components. If you are using the Aqara or a similar one with the reed switch exposed, you will be able to just wrap the bare lead from the presusre mat into either and of the switch (see pictures). This is what I did, and then I wrapped the sensor with electrical tape.  
+Now its time to connect your components. If you are using the Aqara or a similar one with the reed switch exposed, you will be able to just wrap the bare lead from the pressure mat into either and of the switch (see pictures). This is what I did, and then I wrapped the sensor with electrical tape.  
 
-[photos]  
+{{< figure src="wired.png" alt="Image showing the wired sensor" caption="The wired sensor with two pressure mats." >}}
 
 Of course, if you want you can also solder if you want. Bear in mind that if your sensor looks more like the Tuya, you will have to solder the leads into the corrects pads to make it work!
 I decided to leave the original sensor casing out of the finished product because it will be placed out of sight, but you might want to keep it. If you do, you will have to drill a hole on the casing to let the wires go thru it.  
@@ -82,19 +80,17 @@ Your sensor is ready to be used!
 #### Bed
 
 You will have to find the best way to place the sensor for your situation. In my case, I have a twin sized bed, and while one pressure mat would be enough, I found out that sometimes it doesn't detect me laying on it, so I decided to add a second one. If you decide to add more than one "sensing point", all you need to do is to connect each one to either side of the reed switch. It will work with no problems since all they do is close and open the circuit.  
-
-[photos]  
-
+ 
 This is how I placed the pads under my mattress. This covers up most places where I would lay on and works much better than only one pad. Notice that I also added some cardboard to have a greater surface area for the pads to be pushed againts (since the slats are quite far from each other). Your situation might be different depending on the size of your bed and your bed frame, but this example should be a good starting point.  
 
-[photos]  
+{{< figure src="inbed.png" alt="In bed" caption="This is how I placed both sensors in a twin bed" >}}
 
 #### Chair
 
 Like I said before, this method can also be used for a chair sensor! For this use case I would recommend sticking to the [car seat sensor](https://www.amazon.com/gp/product/B09WDCWX8K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) sensor instead, since its very thin and easier to place. Since I routinely change between my Herman Miller and my Capisco chair, I opted for putting my sensor inside a gel cushion like [this one](https://www.amazon.com/Gel-Seat-Cushion-Enhanced-Non-Slip/dp/B08C7HPTW5/ref=sr_1_5_pp?crid=2F28JX2FN7WL3&dib=eyJ2IjoiMSJ9.ByDAg8c7I8Tod4cWlY6KeEsCJoKvdJXZj8ztXTKeRFiWq5x9dyKlLS8FzdNkgnvNmah4B42QX0HeTgeN08qjXX6eSj-x3n2XZ3BgeDGg-aGiA4tvEGmiqaf7em1nOKpewY0aqD218HZ3IhWV1yBgt_AjPQdsPGzPNn8NfHzXen4RddkKoEDPP64dgLEsLJ67vrpWv_zLWth1Rv4zWCkQRPrWG0FHUYf9r77Z75VQMkg2451XCs0Zi-mIwYbr96y-axgVoiMXUyywT1B-VHJMOyQgj3siEKM8xXntrjVD09M.JFarn4__Z5560HvuV1mpYX2pGhUrlm7Ree--6ciGSMg&dib_tag=se&qid=1708896631&sprefix=gel+cushio,aps,178&th=1). It slides quite a bit, so I secured it with tape. Now I can transfer the sensor to anywhere i want.  
 
-[photos]  
-
+{{< figure src="openseat.jpg" alt="Image showing the seat" caption="You can see how the sensor sits inside the cushion. It slides a lot" >}}
+{{< figure src="seat.jpg" alt="Image showing the seat" caption="It will slide around inside the cushion. But will still work anyway." >}}
 But If you don't plan on changing chairs you can just stick in on top of the seat, or under the cover if it allows for it.  
 
 ## Integrating to Home Assistant
@@ -133,3 +129,17 @@ template:
           minutes: 3
         icon: mdi:chair-rolling
 ```
+{{< figure src="HASEN1.png" alt="HA Example" caption="Here you can see that when when the door sensor is open (nothing on it), our newly created bed sensor will be OFF" >}}
+
+{{< figure src="hasen2.png" alt="HA Example" caption="And when its closed (something is on it), our sensor will turn ON" >}}
+
+## Automations
+
+Of course, adding new sensors to your Home Assistant setup would be kind of dumb if you don't actually have uses for them. Here are some of the automations that I created since adding these sensors to my home:
+
+- Disable turning on the room light with motion if there is someone on the bed
+- Turn on my desk fan if I sit on the chair and the temperature is over a threslhold
+- Turn on the lights in the morning when I step up from bed
+
+If you have any more ideas, don't hesitate to email them to me!
+
