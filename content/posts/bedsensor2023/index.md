@@ -1,8 +1,8 @@
 ---
-draft: true
+draft: false
 title: Hacking together a Zigbee bed (or chair) sensor with no soldering
 subtitle: A quick and easy way of creating a new sensor # Optional
-date: 2024-02-01
+date: 2024-03-01
 description: >-
     Small tutorial on how to make a sensor to know if you are on your bed or chair.
 tags:
@@ -69,7 +69,7 @@ You need the pair of bare wires that are comming out of your pressure mat. Its p
 
 Now its time to connect your components. If you are using the Aqara or a similar one with the reed switch exposed, you will be able to just wrap the bare lead from the pressure mat into either and of the switch (see pictures). This is what I did, and then I wrapped the sensor with electrical tape.  
 
-{{< figure src="wired.png" alt="Image showing the wired sensor" caption="The wired sensor with two pressure mats." >}}
+{{< figure src="wired.jpg" alt="Image showing the wired sensor" caption="The wired sensor with two pressure mats." >}}
 
 Of course, if you want you can also solder if you want. Bear in mind that if your sensor looks more like the Tuya, you will have to solder the leads into the corrects pads to make it work!
 I decided to leave the original sensor casing out of the finished product because it will be placed out of sight, but you might want to keep it. If you do, you will have to drill a hole on the casing to let the wires go thru it.  
@@ -83,7 +83,7 @@ You will have to find the best way to place the sensor for your situation. In my
  
 This is how I placed the pads under my mattress. This covers up most places where I would lay on and works much better than only one pad. Notice that I also added some cardboard to have a greater surface area for the pads to be pushed againts (since the slats are quite far from each other). Your situation might be different depending on the size of your bed and your bed frame, but this example should be a good starting point.  
 
-{{< figure src="inbed.png" alt="In bed" caption="This is how I placed both sensors in a twin bed" >}}
+{{< figure src="inbed.jpg" alt="In bed" caption="This is how I placed both sensors in a twin bed" >}}
 
 #### Chair
 
