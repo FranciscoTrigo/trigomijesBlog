@@ -10,14 +10,14 @@ tags:
   - programming
 ---
 
-With this tutorial you will quickly learn how to generate and add your SSH keys to your GitHub account. 
+With this tutorial, you will quickly learn how to generate and add your SSH keys to your GitHub account. 
 <!--more-->
 
 ## Foreword
 
 A couple of years ago, GitHub changed some of their security policies and now you are not able to push (and sometimes pull) code to repositories with the normal username and password login method. You now need to use SSH keys.  
 
-The method outlined here can work with Linux, Windows, Mac OS and probably other OSes too, but some of the commands and steps might differ a bit depending on your system. The good part is that what you learn here will also apply to when you need to access other services that use a similar aunthentication method!
+The method outlined here can work with Linux, Windows, Mac OS and probably other OSes too, but some of the commands and steps might differ a bit depending on your system. The good part is that what you learn here will also apply when you need to access other services that use a similar authentication method!
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ There are a couple of things that you will need:
 - Have Git installed on your system
 - Have SSH installed and enabled in your system
 
-Once you have that, you need to verify that you don't already have existing SSH keys. You can do so by executing `$ ls -al ~/.ssh | grep pub` in your home directory. Other option is to check the `.ssh` directory with a file browser.
+Once you have that, you need to verify that you don't already have existing SSH keys. You can do so by executing `$ ls -al ~/.ssh | grep pub` in your home directory. Another option is to check the `.ssh` directory with a file browser.
 
 ```bash
 yamif@Venusaur-Win MINGW64 ~
@@ -35,13 +35,13 @@ $ ls -al ~/.ssh | grep pub
 -rw-r--r-- 1 yamif 197609  574 Feb 24 16:09 id_rsa.pub
 ```
 
-If your output looks something like that, and you already have a .pub file, you already have some keys, and most likely you will be able to use them with GitHub. Compatible filenames would be something like `id_rsa.pub`, `id_ecdsa.pub`, or `id_ed25519.pub`. Bear in mind that these are default file names and yours might actually be different.
+If your output looks something like that, and you already have a .pub file, you already have some keys, and most likely you will be able to use them with GitHub. Compatible filenames would be something like `id_rsa.pub`, `id_ecdsa.pub`, or `id_ed25519.pub`. Bear in mind that these are default file names and yours might be different.
 
 If you don't have keys, we will generate them in the next section. If you do, you can skip it.
 
 ## Generating keys
 
-Generating your keys wll be as easy as running this command:
+Generating your keys will be as easy as running this command:
 
 ```bash
 ssh-keygen -t rsa -b 4096 -C your@email.com
@@ -86,11 +86,11 @@ Now you can go to your GitHub [settings page](https://github.com/settings/keys) 
 
 {{< figure src="button1.png" alt="Informative" caption="Click this" >}}
 
-Now you will be given two prompts. Give a descriptive title to this key, for example "Manjaro desktop". And in the next field, you need to paste the entire content of your `.pub` file (All of it).
+Now you will be given two prompts. Give a descriptive title to this key, for example, "Manjaro desktop". In the next field, you need to paste the entire content of your `.pub` file (All of it).
 
 Now just click "Add SSH Key"
 
-From the SSH keys page you will also be able to see information regarding all your added keys, and remove them if you need to.
+From the SSH keys page, you will also be able to see information regarding all your added keys and remove them if you need to.
 
 ## Testing
 
