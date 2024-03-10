@@ -10,7 +10,7 @@ tags:
   - AWS
   - learning
 series:
-  - Cloud Resume Chalenge
+  - Cloud Resume Challenge
 ---
 
 As part of my career advancement journey, I decided to start the [Cloud Resume Challenge](https://cloudresumechallenge.dev/) to increase my chances at landing a Cloud Engineer role. This is the first of a series of blog posts about the process.
