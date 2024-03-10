@@ -49,7 +49,7 @@ menu:
       weight: 6
     - identifier: resume
       name: Resume
-      url: http://resume.trigomijes.com/
+      url: https://resume.trigomijes.com/
       weight: 7
 params:
   abbrDateFmt: "Jan 2"
