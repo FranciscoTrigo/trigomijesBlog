@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 author: Frank
 title: The Cloud Resume Challenge 1, 2 and 3
 subtitle: AWS Cloud Practitioner and HTML
