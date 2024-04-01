@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 author: Frank
 title: The Cloud Resume Challenge 1, 2 and 3
 subtitle: AWS Cloud Practitioner and HTML
@@ -16,7 +16,7 @@ series:
 As part of my career advancement journey, I decided to start the [Cloud Resume Challenge](https://cloudresumechallenge.dev/) to increase my chances at landing a Cloud Engineer role. This is the first of a series of blog posts about the process.
 <!--more-->
 
-## What is the Clous Resume Challenge?
+## What is the Cloud Resume Challenge?
 
 > The Cloud Resume Challenge is a hands-on project designed to help you bridge the gap from cloud certification to cloud job. It incorporates many of the skills that real cloud and DevOps engineers use in their daily work.
 
