@@ -1,6 +1,6 @@
 ---
 draft: true
-title: "Cloud resume Challenge: Deploying with Amplify and S3"
+title: "Cloud resume Challenge: Deploying this blog with Amplify and S3"
 subtitle: "Also migrating from Netlify"
 date: 2021-01-15
 description: >-
@@ -8,15 +8,13 @@ description: >-
 tags:
   - hugo
   - AWS
-series:
   - Cloud Resume Challenge
-
 ---
 
-I am doing the [Cloud Resume Challenge](https://cloudresumechallenge.dev/), but the domain that I wanted to use for it was already being used for this blog, and it was deployed with Netlify. Here is how I migrated it over.
+I am doing the [Cloud Resume Challenge](https://cloudresumechallenge.dev/), but the domain that I wanted to use for it was already being used for this blog, and it was deployed with Netlify. Here is how I migrated it over to AWS.
 <!--more-->
 
-Netlify is very useful for deploying static sites like this (I'm using Hugo), and I've used it for a while, both for this blog and other sites in the past. However, I decided to migrate to AWS because of the Cloud Resume Challenge and because I want to have more hands-on experience with AWS.  
+Netlify is very useful for deploying static sites like this (I'm using Hugo), and I've used it for a while, both for this blog and other sites in the past. However, I decided to migrate to AWS for the Cloud Resume Challenge and because I want to have more hands-on experience with AWS.  
 
 Here is what I needed to do:
 

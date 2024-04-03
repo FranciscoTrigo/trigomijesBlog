@@ -9,7 +9,6 @@ description: >-
 tags:
   - AWS
   - learning
-series:
   - Cloud Resume Challenge
 ---
 
@@ -29,19 +28,16 @@ The first step of the project is to get the AWS Certified Cloud Practitioner cer
 
 The main resource that I used was actually [AWS SKillbuilder](https://explore.skillbuilder.aws/learn), I totally recommend it if you are studying for one of their certifications.  
 
-## Step 2: HTML
+## Step 2 and 3: HTML and CSS
 
 Step 2 consists of writing a resume in HTML. The challenge provides a good [example](https://codepen.io/emzarts/pen/OXzmym) that you can use as a starting point.  
 This is just a raw HTML file, so it's fairly simple to write it. The hardest part is figuring out the best way to word all your work accomplishments. 
-You can see mine in my [repo](https://github.com/FranciscoTrigo/cloudChallenge) for the challenge.
 
-## Step 3: CSS
+After fiddling around a bit wanting to have something that looks good, I decided to use [Json Resume](https://jsonresume.org/), a great tool that can generate templated html and pdf resumes from one json file. With it, I can focus on the content of the resume and not worry about the design myself. I created an `index.html` file with a header section that I will edit myself, and then I embeded the resume with `<iframe>` tags.
 
-This step of the challenge makes it clear that it doesn't have to be fancy. I believe this is more just about creating a static website and deploying it with the tools that AWS provides to you.  
-So at the moment of writing this, I am actually using the CSS styling that was provided by the CRC challenge. I plan to change this in the future.  
-You can also find this file in the repo, linked above.
+You can see it in my [repo](https://github.com/FranciscoTrigo/cloudChallenge) for the challenge.
 
-{{< figure src="resume.png" alt="Quick look" caption="Quick look at what the resume looks like at the moment" >}}
+{{< figure src="embededresume.png" alt="Quick look" caption="Quick look at what the resume looks like at the moment" >}}
 
 ## Next steps
 
