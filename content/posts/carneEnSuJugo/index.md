@@ -1,10 +1,16 @@
-+++
-title = "Carne en su jugo"
-author = ["YamiFrankc"]
-tags = ["recipe", "food", "personal"]
-draft = true
-subtitle = "How to make my favorite dish"
-+++
+---
+draft: true
+author: Frank
+title: How to prepare Carne en su jugo
+subtitle: How to make my favorite dish
+date: 2024-06-22
+description: >-
+  Food is good
+tags:
+  - recipe
+  - food
+  - personal
+---
 
 Carne en su jugo is a traditional dish from Guadalajara, Mexico. This is the recipe that my mom taught me, and I'm going to teach it to you.
 
