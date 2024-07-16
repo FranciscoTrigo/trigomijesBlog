@@ -7,6 +7,7 @@ description: >-
   A small list of my favorite games that I played this year, but not necessarily new games.
 tags:
   - videogames
+  - bestOf
 ---
 I did not play many games this year, but here is a small list of my favorite games that I played.  
 Most of these games are not actually recent, but I enjoyed playing them.

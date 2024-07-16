@@ -16,7 +16,6 @@ Carne en su jugo is a traditional dish from Guadalajara, Mexico. This is the rec
 
 <!--more-->
 
-
 ## Ingredients {#ingredients}
 
 Here is a list of ingredients, for the most part I've never used measurements for most of this stuff and just go by what feels good that day. I'll show you a picture so you can have an idea of what proportions I use.
