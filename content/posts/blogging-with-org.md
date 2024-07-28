@@ -4,7 +4,7 @@ author = ["YamiFrankc"]
 date = 2024-04-11T16:48:00-05:00
 tags = ["org", "hugo", "emacs"]
 categories = ["hugo"]
-draft = false
+draft = true
 subtitle = "A quick update on how I write this blog"
 +++
 
