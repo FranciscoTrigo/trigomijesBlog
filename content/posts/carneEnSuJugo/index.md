@@ -16,7 +16,7 @@ Carne en su jugo is a traditional dish from Guadalajara, Mexico. This is the rec
 
 <!--more-->
 
-## Ingredients {#ingredients}
+## Ingredients
 
 Here is a list of ingredients, for the most part I've never used measurements for most of this stuff and just go by what feels good that day. I'll show you a picture so you can have an idea of what proportions I use.
 
@@ -35,29 +35,55 @@ Here is a list of ingredients, for the most part I've never used measurements fo
 -   Water
 
 
-## Making it {#making-it}
+## Making it
 
 
-### Prepping the meat {#prepping-the-meat}
+### Prepping the meat
 
 Start by cutting the bacon in small pieces, and then put it into a kitchen pot over low heat to start cooking it. We do not want it crispy! (unless you really want to)
 
 Cut your meat into small thin pieces. And then add it to the pot along the bacon to cook it. Remember, you want it on low heat. We dont want to cook it completely at the moment.
 
 
-### Making the sauce {#making-the-sauce}
+### Making the sauce
 
 Now we are going to make the sauce. Put the cilantro, tomatillo, garlic and onion in a blender (remember to wash them!), if you want spicy, also add the jalapeno here. Don't forget to add the chicken broth and a bit of black pepper to the mix.
 I usually use [this] kind of broth, so I also add water to it. But you might not need that with the other kind.
 Mix it, and we have our sauce ready!
 
-By now the meat should be a bit coocked (it needs to still be a bit red), and all the its juices should've come out. Add the sauce and also water, and then let it cook.
-How much water to add will depend on your taste, but take into consideration that this dish is supposed to be watery (look at the photos to gen an idea). You might need to add a bit more broth or salt so you don't lose too much flavor to the water.
+By now the meat should be a bit cooked (it needs to still be a bit red), and all the juices should've come out. Add the sauce and also water, and then let it cook.
+How much water to add will depend on your taste, but take into consideration that this dish is supposed to be watery (look at the photos to get an idea). You might need to add a bit more broth or salt so you don't lose too much flavor to the water.
 
-Keep it cooking on low heat until it starts boiling. It should take around 30 minutes. We will make the dished in the meantime.
-
-
-### Making the sides {#making-the-sides}
+Keep it cooking on low heat until it starts boiling. It should take around 40 minutes. You will make the sides in the meantime.
 
 
-#### CIlantro onion {#cilantro-onion}
+### Some sides 
+
+Just like almost all mexican food, carne en su jugo can be eaten with a bunch of sides. I am going to write mainly about the ones that I eat with; but feel free to experiment and try stuff. Most of them are simple to make, so I will only list them.
+
+#### Diced Cilantro and onion
+
+This is simple. Just dice some raw onion and cilantro. I put them on my plate.
+
+#### Caramelized onions
+
+Another simple one. I put mine in tortillas (As if they were tacos) along with the next one.
+
+#### Avocado (or guacamole)
+
+Complete slices of avocado inside a rolled tortilla. That's what I like. But most people prefer guacamole, so you can do that.
+
+#### Melted cheese (or quesadillas)
+
+Carne en su jugo is traditionally accompanied by melted cheese or quesadillas. 
+
+#### Beans
+
+I don't eat beans in any form. But the standard way of eating carne en su jugo is with beans in it.  
+
+#### Salsa
+
+We put salsa on everything. So you can also use salsa here. Use whatever you prefer.
+
+### Ready to eat!
+
