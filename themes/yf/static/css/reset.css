@@ -4,21 +4,21 @@ html {
 :root {
   --bgcolor: #f8f9fa;
   --dimcolor: #eee;
-  --fontcolor: #000;
-  --linkcolor: #00e;
-  --visitedcolor: #551a8b;
+  --fontcolor: #FCE8C3;
+  --linkcolor: #2C78BF;
+  --visitedcolor: #E02C6D;
   --precolor: #fff;
   --prebgcolor: #000;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-     --bgcolor: #1C1B19;
-     --dimcolor: #333;
-     --fontcolor: #ddd;
-     --linkcolor: #5bf;
-     --visitedcolor: #ae5ee0;
-     --precolor: #fff;
-     --prebgcolor: #383838;
+    --bgcolor: #f8f9fa;
+    --dimcolor: #eee;
+    --fontcolor: #FCE8C3;
+    --linkcolor: #2C78BF;
+    --visitedcolor: #E02C6D;
+    --precolor: #fff;
+    --prebgcolor: #000;
   }
 }
 body {
