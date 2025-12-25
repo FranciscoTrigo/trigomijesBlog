@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trigo Mijes</title>
+    <style id="custom-styles">
+        /* ==============================================
+           COLOR VARIABLES - EDIT THESE TO CHANGE COLORS
+           ============================================== */
+        :root {
+            /* Background color */
+            --bg-color: rgb(28, 27, 25);
+            
+            /* Main text color */
+            --text-color: rgb(145, 129, 117);
+            
+            /* Text glow color */
+            --glow-color: rgb(145, 129, 117);
+            
+            /* Cursor color */
+            --cursor-color: rgb(145, 129, 117);
+            
+            /* Border/frame color */
+            --border-color: rgb(145, 129, 117);
+        }
+
+        /* ======================
+           RESET & BASE STYLES
+           ====================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: var(--bg-color);
+            font-family: 'Courier New', 'Courier', monospace;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* ======================
+           TERMINAL SCANLINES
+           ====================== */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.15),
+                rgba(0, 0, 0, 0.15) 1px,
+                transparent 1px,
+                transparent 2px
+            );
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        /* ======================
+           MAIN CONTAINER
+           ====================== */
+        .terminal-container {
+            position: relative;
+            z-index: 10;
+            text-align: left;
+            padding: 2rem;
+            border: 2px solid var(--border-color);
+            box-shadow: 0 0 20px rgba(145, 129, 117, 0.3);
+            animation: fadeIn 2s ease-out;
+        }
+
+        /* ======================
+           TERMINAL HEADER
+           ====================== */
+        .terminal-header {
+            font-size: clamp(0.8rem, 2vw, 1rem);
+            color: var(--text-color);
+            margin-bottom: 1.5rem;
+            opacity: 0.7;
+        }
+
+        /* ======================
+           MAIN TEXT
+           ====================== */
+        .main-text {
+            font-size: clamp(2.5rem, 12vw, 10rem);
+            font-weight: bold;
+            color: var(--text-color);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            text-shadow: 
+                0 0 5px var(--glow-color),
+                0 0 10px var(--glow-color);
+            line-height: 1.2;
+            display: inline-block;
+        }
+
+        /* ======================
+           BLINKING CURSOR
+           ====================== */
+        .cursor {
+            display: inline-block;
+            width: 0.6em;
+            height: 1em;
+            background: var(--cursor-color);
+            margin-left: 0.2em;
+            animation: blink 1s step-end infinite;
+            vertical-align: text-bottom;
+        }
+
+        @keyframes blink {
+            0%, 50% {
+                opacity: 1;
+            }
+            51%, 100% {
+                opacity: 0;
+            }
+        }
+
+        /* ======================
+           TERMINAL INFO LINE
+           ====================== */
+        .terminal-info {
+            font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+            color: var(--text-color);
+            margin-top: 1.5rem;
+            opacity: 0.6;
+        }
+
+        /* ======================
+           FADE IN ANIMATION
+           ====================== */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* ======================
+           SCREEN FLICKER EFFECT
+           ====================== */
+        @keyframes flicker {
+            0% {
+                opacity: 0.97;
+            }
+            5% {
+                opacity: 0.95;
+            }
+            10% {
+                opacity: 0.98;
+            }
+            15% {
+                opacity: 0.96;
+            }
+            20% {
+                opacity: 0.97;
+            }
+            100% {
+                opacity: 0.97;
+            }
+        }
+
+        body {
+            animation: flicker 0.15s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            system@localhost:~$
+        </div>
+        <div>
+            <span class="main-text">TRIGO MIJES</span><span class="cursor"></span>
+        </div>
+        <div class="terminal-info" id="status">
+            [ ready ]
+        </div>
+    </div>
+
+    <script>
+        // List of random status messages
+        const statusMessages = [
+            '[ ready ]',
+            '[ online ]',
+            '[ connected ]',
+            '[ system operational ]',
+            '[ awaiting input ]',
+            '[ all systems go ]',
+            '[ initialized ]',
+            '[ standing by ]',
+            '[ active ]',
+            '[ running ]',
+            '[ Digimon ]',
+            '[ Pokemon ]'
+        ];
+
+        // Pick a random message when page loads
+        window.addEventListener('DOMContentLoaded', () => {
+            const statusElement = document.getElementById('status');
+            const randomMessage = statusMessages[Math.floor(Math.random() * statusMessages.length)];
+            statusElement.textContent = randomMessage;
+        });
+    </script>
+</body>
+</html>
